@@ -14,7 +14,7 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=3.99
 description=Instantly print map excerpts
 about=The instant print plugin allows to quickly print map excerpts to a file, utilizing an existing composer as page layout.
-version=3.0.1
+version=3.1.2
 author=Sandro Mani, Sourcepole AG
 email=smani@sourcepole.ch
 
@@ -23,28 +23,10 @@ email=smani@sourcepole.ch
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=
- Rev 3.0.1 (24.01.2025)
-  - Resolve "unexpected type 'float'" (@gducerf)
-  - Refresh LayoutItem prior to printing or exporting to update Item (@ictoain)
-
- Rev 3.0.0 (08.03.2018)
-  - QGIS 3.0 support
-  - Allow managing predefined scales
-  - Allow printing to physical printer
-  - Various bug fixes
-
- Rev 1.0.2 (15.06.2015)
-  - Fix cursor not unsetting after tool deactivated
-  - Add support for PyQt4 < 4.8.4
-
- Rev 1.0.1 (18.03.2015)
-   - Ensure export filename has correct extension.
-   - Partial workaround for QGIS bug causing crashes when closing a project with more than one composer.
-     (To prevent crashes, make sure the Instant Print dialog is closed before closing a project.)
-
- Rev 1.0.0 (26.02.2015)
-   - Initial release
+changelog=Rev 3.1.2 (02.09.2026)
+  - Add translated rotation labels for German, Italian and Japanese
+  - Add map rotation angle control and rotated print-area preview
+  - Fix metadata parsing
 
 # tags are comma separated with spaces allowed
 tags=print,composer
